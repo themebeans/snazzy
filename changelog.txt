@@ -1,0 +1,355 @@
+** Snazzy Changelog **
+
+05 April 2019, Version 3.2.10
+	* Tweak: Admin 1.6.1
+
+02 April 2019, Version 3.2.9
+	* New: Add support for the new `wp_body_open` hook in WordPress 5.2+
+	* Fix: Resolve issue where the portfolio filter was displaying on post archives
+
+17 October 2018, Version 3.2.8
+	* New: Add support for PHP 7.2
+
+26 May 2018, Version 3.2.7
+	* Fix: Post media caption now properly renders on mobile
+
+31 May 2018, Version 3.2.6
+	* New: Front page now automatically resolves to the theme portfolio
+	* Tweak: Remove template-portfolio.php in place of front-page.php
+	* Fix: Site title color properly resolves with the Header Title color option
+
+21 May 2018, Version 3.2.5
+	* New: Add a new Customizer option for changing header title colors
+
+17 May 2018, Version 3.2.4
+	* New: Add support for custom background images
+	* New: PHP 7.2 Compatibility
+	* Tweak: Move Customizer > Theme Options > Colors options to Customizer > Colors
+
+22 March 2018, Version 3.2.3
+	* New: Add mobile width site logo option
+	* New: Add JS rendered toggle and title controls
+	* New: Add minified Customizer JS and editor stylesheet assets with auto-prefixing
+	* Tweak: Improve visual text contrast for better accessibility
+	* Tweak: Update Toggle and Title custom Customizer controls for JS rendering
+	* Tweak: Remove the pre-loading effect
+	* Tweak: Prep for an upcoming release with Merlin WP support
+	* Tweak: Improve debug mode that works with minified asset delivery throughout the entire theme
+	* Tweak: Update /admin/ to v1.3.4b with improved filtering, CMB2 updates, the new Dashboard Doc module and improved white-labeling options
+
+10 November 2017 - Version 3.2.2
+	New:
+		* Introduced a new license Customizer control for managing your theme license
+		* Removed the dashboard license widget
+		* Added support for core custom logo functionality
+
+	Fixes & Updates:
+		* Migrated the site_logo Customizer option to the core WordPress custom_logo option
+		* Updated languages
+
+
+10 May 2017 - Version 3.2.1
+	Fixes & Updates:
+		* Updated pingback header
+
+
+12 September 2016 - Version 3.2.0
+	Fixes & Updates:
+		* Updater class now requires admin permissions
+		* Child functionality update
+		* Properly escaped translation strings
+		* Security audit and relevant optimizations
+		* Improved sanitization callbacks
+		* Updated languages
+
+
+27 April 2016 - Version 3.1.2
+	Fixes & Updates:
+		* Lity.js update
+
+
+26 April 2016 - Version 3.1.1
+	Fixes & Updates:
+		* Photoswipe update
+		* Updated languages
+
+
+18 April 2016 - Version 3.1.0
+	Fixes & Updates:
+		* WordPress 4.5 updates
+		* Child functionality update
+		* General performance improvements
+		* Updated languages
+
+
+22 March 2016 - Version 3.0.3
+	Fixes & Updates:
+		* Improved Envira Gallery plugin support
+		* Updated languages
+
+
+29 February 2016 - Version 3.0.2
+	Fixes & Updates:
+		* Customizer sanitization update
+
+
+17 February 2016 - Version 3.0.1
+	New:
+		* Video post format fix
+		* Post-to-post navigation
+
+	Fixes & Updates:
+		* Updated documentation
+		* Updated languages
+
+
+16 February 2016 - Version 3.0.0
+	New:
+		* Lazy-loading
+		* Super-advanced and mobile-friendly lightbox
+		* Better video portfolio post support
+		* Sorting by popularity, date or randomly
+		* Embedded lightbox videos
+		* Improved mobile navigation
+		* More responsive and fluid build
+		* Role, client, external url, views portfolio meta
+		* Overall style update
+		* Video and image post format lightboxes
+		* Minified scripts and styles
+		* New framework, based on _s
+		* New child theme
+
+	Fixes & Updates:
+		* Removed gallery and audio post formats
+		* Updated Isotope grid layouts
+		* Updated languages
+		* Countless performance updates
+
+
+25 January 2016 - Version 2.8.0
+	Fixes & Updates:
+		* EDD_Theme_Updater Update
+		* Dynamic Sidebar WP 4.4 fixes
+		* Portfolio meta custom url fix
+		* Updated languages
+
+
+18 December 2015 - Version 2.7.8
+	Fixes & Updates:
+		* Compiled stylesheets for better performance
+		* Added .min stylesheet and selective loading
+		* Updated languages
+
+
+31 August 2015 - Version 2.7.7
+	New:
+		* 100% GPL license
+
+
+20 August 2015 - Version 2.7.6
+	Fixes & Updates:
+		* Theme Customizer update
+		* 4.3 widget __construct update
+		* Framework updated to v2.6.2.1
+		* Updated languages
+
+
+14 August 2015 - Version 2.7.5
+	New:
+		* Added Customizer Export/Import support
+			- More info: https://themebeans.com/?p=71018
+			- Download & Install: https://wordpress.org/plugins/customizer-export-import
+			- [theme]-package/customizer/[theme]-export.data
+
+	Fixes & Updates:
+		* Improved optimization of image assets
+		* Added minified css/js files
+			- style.min.css
+			- mobile.min.css
+			- custom.min.js
+			- custom-libraries.min.js
+		* Framework updated to v2.6.1
+		* Cleaned style.css
+		* Updated documentation
+		* Updated languages
+
+
+30 April 2015 - Version 2.7.4
+	Fixes & Updates:
+		* XSS fix
+		* Theme Customizer UI improvements
+		* bean_custom_form_filters comments 4.2+ fix
+		* Framework updated to v2.2.5
+			- Updated Theme Customizer UI
+			- Updated Custom CSS Editor
+		* Updated languages
+
+
+21 April 2015 - Version 2.7.3
+	New:
+		* Added embedded video widget
+
+	Fixes & Updates:
+		* Header z-index update
+		* Updated gallery post format
+		* Primary stylesheet organization
+		* Table of Contents for primary stylesheet
+		* Framework updated to v2.2.4.1
+		* Updated languages
+
+
+15 January 2015 - Version 2.7.2
+	Fixes & Updates:
+		* Contact form updated with anti-spam $headers fix
+		* Framework updated to v2.2.3.1
+		* Updated languages
+
+
+22 December 2014 - Version 2.7.1
+	Fixes & Updates:
+		* Background image customizer support
+		* Framework updated to v2.2.1
+		* Updated languages
+
+
+9 December 2014 - Version 2.7
+	Fixes & Updates:
+		* Framework updated to v2.2
+		* Updated languages
+
+
+2 December 2014 - Version 2.6.1
+	New:
+		* Added support for Bean Dribbble plugin
+
+	Fixes & Updates:
+		* Widget positioning fix
+		* Framework updated to v2.1.2.1
+		* Updated child theme
+		* Updated languages
+
+
+14 October 2014 - Version 2.6.0
+	Fixes & Updates:
+		* Textarea fix
+		* Animation engine update
+		* Framework updated to v2.1.1
+		* Updated languages
+
+
+11 September 2014 - Version 2.5.1
+		Fixes & Updates:
+		* Overlay height fix
+		* Framework updated to v2.0.9.2
+		* Updated languages
+
+
+5 September 2014 - Version 2.5
+	Fixes & Updates:
+		* WP 4.0 compatibility update
+		* Framework updated to v2.0.9.1
+		* Moved framework.css into style.css
+		* Removed framework.css
+		* Updated languages
+
+
+08 July 2014 - Version 2.4.0
+	New:
+		* Added site map template
+
+	Fixes & Updates:
+		* Retina.js update to v1.3.0
+		* Modded 'page' filenames to 'template'
+		* Updated styles for templates' mod
+		* Updated languages
+
+
+30 June 2014 - Version 2.3.0
+	Fixes & Updates:
+		* WP 3.9+ UI touch ups
+		* FF Dribbble widget fix
+		* Support for Bean 500px plugin
+		* Chrome fullscreen video fix
+		* Framework updated to v2.0.9
+		* Updated languages
+
+
+10 Apr 2014 - Version 2.2.2
+	Fixes & Updates:
+		* Framework updated to v2.0.7
+
+
+12 Mar 2014 - Version 2.2.1
+	Fixes & Updates:
+		* Framework updated to v2.0.5
+
+
+27 Feb 2014 - Version 2.2.0
+	New:
+		* New theme version notifications/update system
+		* New Custom CSS Editor
+
+	Fixes & Updates:
+		* Theme customizer UI update
+		* Framework updated to v2.0.4
+		* Language .po/.mo files updated
+
+12 Feb 2014 - Version 2.1.2
+	New:
+		* Support for Bean Shortcodes 2.0+
+
+
+22 Jan 2013 - Version 2.1.1
+	Fixes & Updates:
+		* Retina.js update to v1.1.0
+
+
+06 Jan 2013 - Version 2.1.0
+	Fixes & Updates:
+		* Portfolio on/off meta fix
+		* Single portfolio loop resizing fix
+
+
+30 Dec 2013 - Version 2.0.2
+	Fixes & Updates:
+		* Framework updated to v2.0.2
+
+
+21 Dec 2013 - Version 2.0.1
+	Fixes & Updates:
+		* Minor framework fixes
+
+
+17 Dec 2013 - Version 2.0.0
+	New:
+		* Major framework overhaul
+
+	Fixes & Updates:
+		* Updated documentation
+
+
+13 Dev 2013 - Version 1.3.1
+	New:
+		Support for Bean Tweets WordPress plugin
+	Fixes & Updates:
+		* WP 3.8 patches
+
+
+07 Oct 2013 - Version 1.3.0
+	New:
+		* Support for Bean Pricing Tables Plugin
+		* Added portfolio tags template
+
+
+07 Oct 2013 - Version 1.2.0
+	New:
+		* Support for Bean Social Plugin
+
+
+11 Sept 2013 - Version 1.1.0
+	Fixes & Updates:
+		* WP 3.6 patches
+
+
+30 July 2013 - Version 1.0.0
+	* Initial release

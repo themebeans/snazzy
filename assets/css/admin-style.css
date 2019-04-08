@@ -1,0 +1,295 @@
+
+/**
+ * Customizer Retina Logo
+ */
+
+#customize-control-blogname {
+	margin-top: 9px;
+	border-top: 1px solid #dcdcdc;
+	padding-top: 19px;
+}
+
+/* Customizer */
+
+
+.customize-control select {
+    margin-top: 7px;
+    width: 99.4%;
+}
+
+#accordion-section-snazzy_theme_options_footer .customize-control-checkbox {
+    margin-bottom: 0;
+}
+
+#customize-control-pro_typography_content ul,
+#customize-control-pro_colors_content ul,
+#customize-control-pro_portfolio_content ul,
+#customize-control-pro_portfolio_cta_content ul {
+    list-style-type: disc;
+    padding-left: 1.3em;
+    margin-bottom: 1.5em;
+}
+
+#customize-control-pro_typography_content .description,
+#customize-control-pro_colors_content .description,
+#customize-control-pro_portfolio_content .description,
+#customize-control-pro_portfolio_cta_content .description {
+    font-style: normal;
+}
+
+#customize-control-pro_typography_content .button,
+#customize-control-pro_colors_content .button,
+#customize-control-pro_portfolio_content .button,
+#customize-control-pro_portfolio_cta_content .button {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Post Type Sorting */
+
+
+.js #team_list .menu-item-handle,
+.js #portfolio_list .menu-item-handle,
+.js #testimonial_list .menu-item-handle {
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    line-height: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+#team_list .menu-item-bar,
+#portfolio_list .menu-item-bar,
+#testimonial_list .menu-item-bar {
+    margin: 0;
+}
+
+.js #team_list .menu-item-handle img,
+.js #portfolio_list .menu-item-handle img,
+.js #testimonial_list .menu-item-handle img {
+    border-radius: 2px;
+    height: 25px;
+    width: 25px;
+}
+
+.js #team_list .menu-item-title,
+.js #portfolio_list .menu-item-title,
+.js #testimonial_list .menu-item-title {
+    padding-left: 35px;
+}
+
+.menu-item-image {
+    border-radius: 2px;
+    left: 10px;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #E7E7E7;
+}
+
+
+
+/* Customizer */
+.customize-control select {
+    margin-top: 7px;
+    width: 99.4%;
+}
+
+
+ /* Meta */
+.media-frame .attachments-browser .media-toolbar {
+    display: block!important;
+}
+
+.bean-meta-table {
+    margin: 0;
+}
+
+.bean-meta-table tr {
+    border-top: 1px solid #EEE;
+}
+
+.bean-meta-table tr:first-child {
+    border-top: none;
+}
+
+.bean-meta-table th {
+    padding: 20px 15px;
+    padding-right: 5%;
+    width: 35%;
+}
+
+.bean-meta-table a {
+    outline: none!important;
+}
+
+.bean-meta-table label span {
+    display: block;
+    color: #999;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 3px 0 0px 0;
+}
+
+.bean-meta-table input,
+.bean-meta-table textarea {
+    width: 100%;
+    margin-right: 5px;
+    float: left;
+}
+
+.bean-meta-table select {
+    min-width: 150px;
+}
+
+.bean-meta-table input.file {
+    width: 80%;
+}
+
+.bean-meta-table input.button {
+    margin-right: 0;
+    outline: none!important;
+    width: auto;
+}
+
+.bean-meta-table #bean_images_upload {
+    margin-top: 14px;
+}
+
+.bean-meta-table input.radio {
+    float: none;
+    margin-right: 3px;
+    margin-top: 0px;
+    width: auto;
+}
+
+.bean-meta-table .radio-label {
+    margin-right: 30px;
+}
+
+.bean-meta-table input[type='checkbox'] {
+    margin-top: 1px;
+    margin-right: 10px;
+    width: 10px;
+}
+
+#bean_metabox_seo .radio-label {
+    text-transform: capitalize!important;
+}
+
+.bean-meta-table td span,
+.bean-meta-table .radio-label {
+    color: #999;
+    font-size: 13px;
+
+}
+
+/* Colorpicker styles */
+.bean-box-color {
+    position: relative;
+}
+
+td.bean-box-color {
+    padding: 36px 10px;
+}
+
+.bean-box-color input {
+    margin-right: 10px;
+}
+
+.bean-box-color .wp-color-picker {
+    width: 65px!important;
+}
+
+.bean-box-color .button.button-small {
+    height: 23px!important;
+    margin-top: 1px;
+}
+
+.bean-box-color .wp-picker-clear {
+    margin-left: 15px!important;
+}
+.bean-box-color .wp-picker-clear {
+    margin-left: 15px!important;
+}
+
+.bean-box-color .wp-color-result {
+    margin: 0 6px 3px 0!important;
+}
+
+.bean-box-color .wp-color-result,
+.bean-box-color .wp-color-result.wp-picker-open {
+    top: 1px!important;
+}
+
+
+/* Media meta */
+.post-type-portfolio .media-button-reverse {
+    display: none;
+}
+
+.bean-meta-thumbnails {
+    clear: left;
+    margin-top: 50px;
+}
+
+.bean-meta-thumbnails li {
+    float: left;
+    margin-right: 5px;
+}
+
+.bean-meta-thumbnails li img {
+    height: 40px;
+}
+
+.bean-meta-thumbnails img { vertical-align: bottom; }
+
+
+/* Portfolio side format selector */
+#side-sortables #portfolio-type.postbox .bean-meta-table th {
+    padding: 0px;
+    vertical-align: middle;
+    width: 100%;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+#side-sortables #portfolio-type.postbox .bean-meta-table strong {
+    font-weight: normal;
+    margin-top: 1px;
+}
+
+#side-sortables #portfolio-type.postbox .bean-meta-table td span {
+    display: none;
+}
+
+#side-sortables #portfolio-type.postbox .bean-meta-table input[type='checkbox'] {
+    margin: 0;
+}
+
+label._bean_portfolio_type_audio:before,
+label._bean_portfolio_type_video:before,
+label._bean_portfolio_type_gallery:before {
+    color: #DDD;
+    content: '\f161';
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    margin-right: 7px;
+    position: relative;
+    vertical-align: middle;
+    speak: none;
+    -moz-osx-font-smoothing: grayscale;
+     -webkit-font-smoothing: antialiased;
+    -webkit-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+}
+
+label._bean_portfolio_type_audio:before {
+    content: '\f127';
+}
+
+label._bean_portfolio_type_video:before {
+    content: '\f126';
+}
+
